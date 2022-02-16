@@ -8,7 +8,7 @@ I used the same disease names (extracted from Fig 2 in the manuscript), replaced
 
 The averaged scores are calculated for each disease, as the weighted average of the cosine similarity between the specific disease and the 5 words. 
 
-$$score = \sum(similarity_i * score_i)/\sum(similarity_i)$$
+score = \sum(similarity_i * score_i) / \sum(similarity_i)
 
 where $score_i$ is the score of the $ith$ word with value 1-5, and $similarity_i$ is the cosine similarity between the specific disease and the $ith$ word.
 
